@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import {Component, OnInit} from '@angular/core';
 
 @Component({
     template: `hello <span class="about-text">About</span>`,
@@ -7,6 +7,6 @@ import {Component} from "@angular/core";
     ]
 })
 
-export class AboutComponent{
+export class AboutComponent {
 
 }
